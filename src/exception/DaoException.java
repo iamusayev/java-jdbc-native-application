@@ -7,5 +7,5 @@ public class DaoException extends RuntimeException{
     public DaoException(String message, String code) {
         super(message);
         this.code = code;
-    }
+    } 
 }
