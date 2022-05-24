@@ -52,7 +52,7 @@ public class BookService {
 
     public void deleteAllAuthorsBooks() {
         bookRepo.deleteBooksByAuthorId(builder.buildId("author id"));
-    }
+    } 
 
 
             public static BookService getInstance() {
