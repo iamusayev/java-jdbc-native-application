@@ -30,5 +30,5 @@ public class BookFilter {
 
     public String getGenre() {
         return genre;
-    }
+    } 
 }
