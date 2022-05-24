@@ -6,3 +6,4 @@ public class ExceptionConstants {
     public static final String DAO_EXCEPTION_MESSAGE = "HAVING PROBLEMS WITH THE DATABASE";
 
 }
+ 
