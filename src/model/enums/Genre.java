@@ -10,6 +10,6 @@ public enum Genre {
     COMPUTER_SCIENCE,
     PROGRAMMING,
     NOVELS,
-    AMATEUR_LITERATURE
+    AMATEUR_LITERATURE 
 
 }
