@@ -23,7 +23,7 @@ public final class ConnectionManager {
     private static List<Connection> sourceConnection;
 
     static {
-        loadDriver();
+        loadDriver(); 
         initConnectionPool();
     }
 
