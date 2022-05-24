@@ -3,10 +3,9 @@ package dao.repo;
 import dao.entity.Author;
 import dao.entity.Book;
 import exception.DaoException;
-import model.constants.ExceptionConstants;
 import model.enums.Genre;
 import model.filter.AuthorFilter;
-import util.ConnectionManager;
+import pool.ConnectionManager;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -113,7 +112,6 @@ public class AuthorRepo {
             bookPrepareStatement.executeUpdate();
 
             connection.commit();
-
 
         } catch (Exception ex) {
             if (connection != null) {
