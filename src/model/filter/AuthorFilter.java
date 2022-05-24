@@ -31,4 +31,4 @@ public class AuthorFilter {
     public String getLastname() {
         return lastname;
     }
-}
+} 
